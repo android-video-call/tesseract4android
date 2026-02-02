@@ -89,7 +89,7 @@ afterEvaluate {
 				from components.standardRelease
 				groupId = "com.github.android-video-call"
 				artifactId = "tesseract4android"
-				version = "4.9.6"
+				version = "4.9.7"
 			}
 		}
 	}

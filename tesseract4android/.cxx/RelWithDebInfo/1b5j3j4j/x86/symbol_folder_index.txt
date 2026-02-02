@@ -1,0 +1,1 @@
+/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/RelWithDebInfo/1b5j3j4j/obj/x86
