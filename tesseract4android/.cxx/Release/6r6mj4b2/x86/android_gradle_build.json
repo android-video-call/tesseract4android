@@ -1,0 +1,72 @@
+{
+  "buildFiles": [
+    "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/CMakeLists.txt",
+    "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/leptonica/CMakeLists.txt",
+    "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/libjpeg/CMakeLists.txt",
+    "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/libpng/CMakeLists.txt",
+    "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/tesseract/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/muratfet/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/.cxx/Release/6r6mj4b2/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/muratfet/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/.cxx/Release/6r6mj4b2/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "jpeg::@a731cd7af4720e231c52": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "jpeg",
+      "output": "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libjpeg.so",
+      "runtimeFiles": []
+    },
+    "leptonica::@325f8d59c35d1c22333d": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "leptonica",
+      "output": "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libleptonica.so",
+      "runtimeFiles": [
+        "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libjpeg.so",
+        "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libpngx.so"
+      ]
+    },
+    "pngx::@0ccab45d953d31f6e478": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "pngx",
+      "output": "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libpngx.so",
+      "runtimeFiles": []
+    },
+    "tesseract::@b5b5e8a00c456ca34437": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "tesseract",
+      "output": "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libtesseract.so",
+      "runtimeFiles": [
+        "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libleptonica.so",
+        "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libjpeg.so",
+        "/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/build/intermediates/cxx/Release/6r6mj4b2/obj/x86/libpngx.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/muratfet/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/muratfet/Library/Android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

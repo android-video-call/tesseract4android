@@ -111,14 +111,14 @@ afterEvaluate {
 			standard(MavenPublication) {
 				from components.findByName('standardRelease')
 
-				groupId 'cz.adaptech'
+				groupId 'com.github.android-video-call'
 				artifactId 'tesseract4android'
 				version rootProject.ext.tesseract4AndroidVersion
 			}
 			openmp(MavenPublication) {
 				from components.findByName('openmpRelease')
 
-				groupId 'cz.adaptech'
+				groupId 'com.github.android-video-call'
 				artifactId 'tesseract4android-openmp'
 				version rootProject.ext.tesseract4AndroidVersion
 			}

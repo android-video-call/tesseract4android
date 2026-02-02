@@ -1,0 +1,5 @@
+/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/CMakeLists.txt
+/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/leptonica/CMakeLists.txt
+/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/libjpeg/CMakeLists.txt
+/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/libpng/CMakeLists.txt
+/Users/muratfet/Documents/GitHub/tesseract4android/tesseract4android/src/main/cpp/tesseract/CMakeLists.txt
