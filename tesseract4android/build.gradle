@@ -34,9 +34,12 @@ android {
 		}
 	}
 
-	// BU KISMI EKLEYİN - Debug variant'ları atla
+	// Debug ve openmp variant'larını ignore et - sadece standardRelease build et
 	variantFilter { variant ->
-		if (variant.buildType.name == 'debug') {
+		def buildTypeName = variant.buildType.name
+		def flavorName = variant.getFlavors().get(0).name
+
+		if (buildTypeName == 'debug' || flavorName == 'openmp') {
 			setIgnore(true)
 		}
 	}
@@ -56,10 +59,6 @@ android {
 	}
 	publishing {
 		singleVariant("standardRelease") {
-			withSourcesJar()
-			withJavadocJar()
-		}
-		singleVariant("openmpRelease") {
 			withSourcesJar()
 			withJavadocJar()
 		}
@@ -90,7 +89,7 @@ afterEvaluate {
 				from components.standardRelease
 				groupId = "com.github.android-video-call"
 				artifactId = "tesseract4android"
-				version = "4.9.5"
+				version = "4.9.6"
 			}
 		}
 	}
