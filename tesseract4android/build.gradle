@@ -108,19 +108,11 @@ dependencies {
 afterEvaluate {
 	publishing {
 		publications {
-			standard(MavenPublication) {
-				from components.findByName('standardRelease')
-
-				groupId 'com.github.android-video-call'
-				artifactId 'tesseract4android'
-				version rootProject.ext.tesseract4AndroidVersion
-			}
-			openmp(MavenPublication) {
-				from components.findByName('openmpRelease')
-
-				groupId 'com.github.android-video-call'
-				artifactId 'tesseract4android-openmp'
-				version rootProject.ext.tesseract4AndroidVersion
+			release(MavenPublication) {
+				from components.release
+				groupId = "com.github.android-video-call"
+				artifactId = "tesseract4android"
+				version = "4.9.2"
 			}
 		}
 	}
