@@ -109,10 +109,10 @@ afterEvaluate {
 	publishing {
 		publications {
 			release(MavenPublication) {
-				from components.release
+				from components.standardRelease
 				groupId = "com.github.android-video-call"
 				artifactId = "tesseract4android"
-				version = "4.9.2"
+				version = "4.9.3"
 			}
 		}
 	}
